@@ -12,7 +12,7 @@ global.allowJids = process.env.ALLOW_JID ||'120363165030810524@g.us' ;
 global.github = 'https://github.com/CYBER-THUSHAN/SHENU-QUEEN-V1'
 global.location = 'Sri Lanka'
 global.gurl = 'https://instagram.com/' // add your username
-global.sudo = process.env.SUDO || '94710109956'
+global.sudo = process.env.SUDO || '2349132095836'
 global.devs = '94710109956';
 global.INBOX_BLOCK = 'true'
 global.TIMEZONE = 'Asia/Colombo' 
@@ -24,10 +24,10 @@ module.exports = {
   ownernumber: process.env.OWNER_NUMBER === undefined ? '94710109956' : process.env.OWNER_NUMBER,
   sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
   author:  process.env.PACK_INFO.split(";")[0] === undefined ? '🚨🧚‍♀️𝘚𝘏𝘌𝘕𝘜 𝘘𝘜𝘌𝘌𝘕:𝘊𝘠𝘉𝘌𝘙-𝘛𝘏𝘜𝘚𝘏𝘈𝘕' : process.env.PACK_INFO.split(";")[0],
-  auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
+  auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? true : process.env.AUTO_READ_STATUS,
   packname:  process.env.PACK_INFO.split(";")[1] === undefined ? '𝗦𝗛𝗘𝗡𝗨 𝗤𝗨𝗘𝗘𝗡 𝗠𝗗' : process.env.PACK_INFO.split(";")[1],	
   dl_limit: process.env.DL_SIZE || '350',
-  autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION ,
+  autoreaction:  process.env.AUTO_REACTION  === undefined ? true : process.env.AUTO_REACTION ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nbwoed' : process.env.ANTI_BAD_WORD,
   alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? true : process.env.ALWAYS_ONLINE,
   antilink: process.env.ANTILINK_VALUES || 'chat.whatsapp.com',
